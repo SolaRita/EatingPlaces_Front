@@ -1,0 +1,9 @@
+@import '../variables/Colors.css';
+@import '../variables/Tipos.css';
+
+.navbar {
+    background-color: var(--secundary-color-pink) ;
+    padding-bottom: 5vh;
+    margin-top: 0%;
+    
+  }

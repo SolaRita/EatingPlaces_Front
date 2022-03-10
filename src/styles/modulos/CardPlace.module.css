@@ -1,0 +1,27 @@
+@import "../variables/Colors.css";
+@import "../variables/Tipos.css";
+
+.card {
+  background-color: var(--secundary-color-beige);
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.rigth {
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+}
+
+.text {
+  padding-top: 1vh;
+}

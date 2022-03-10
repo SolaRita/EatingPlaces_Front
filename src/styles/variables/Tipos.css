@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'FontBook';
+    src:url(../../assets/fonts/SharpGrotesk-Book20.otf);
+  }
+  @font-face {
+    font-family: 'FontLight';
+    src:url(../../assets/fonts/SharpGrotesk-Light20.otf);
+  }
+  @font-face {
+    font-family: 'FontMedium';
+    src:url(../../assets/fonts/SharpGrotesk-Medium20.otf);
+  }

@@ -2,9 +2,23 @@
 @import "../variables/Tipos.css";
 
 .card {
+
+
+}
+
+.vista {
   background-color: var(--secundary-color-beige);
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
+}
+
+.dropdown {
+  background-color: var(--secundary-color-beige);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  display: block;
 }
 
 .left {
@@ -23,5 +37,11 @@
 }
 
 .text {
-  padding-top: 1vh;
+  padding-top: 1vh
 }
+
+hr {
+  color: black;
+  size: 2px ;
+}
+

@@ -2,46 +2,66 @@
 @import "../variables/Tipos.css";
 
 .card {
-
+  background-color: var(--secundary-color-beige);
+  padding: 15px;
+  
 
 }
 
+.text {
+  padding-top: 1vh
+}
+.icon {
+  font-size: 0.7rem;
+  justify-items: left;
+  margin-right: 5px;
+  padding-top: 3px;
+}
+
 .vista {
-  background-color: var(--secundary-color-beige);
   display: flex;
   justify-content: space-between;
   cursor: pointer;
 }
 
 .dropdown {
-  background-color: var(--secundary-color-beige);
+
   position: relative;
-  display: flex;
-  justify-content: space-between;
   display: block;
 }
+
+
 
 .left {
   display: flex;
   text-align: left;
   flex-direction: column;
-  padding: 20px;
+  padding: 0px;
+  padding-top: 0%;
 }
 
 .rigth {
   display: flex;
   text-align: right;
   flex-direction: column;
-  padding: 20px;
+  padding: 0px;
   justify-content: center;
 }
 
-.text {
-  padding-top: 1vh
+
+
+.textLogo{
+  display:flex;
+  flex-direction: row;
+}
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+  margin: 0px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  
 }
 
-hr {
-  color: black;
-  size: 2px ;
-}
 

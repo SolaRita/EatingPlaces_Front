@@ -14,38 +14,54 @@
 
 h1 {
   margin: 0%;
-  padding-top: 2vh;
-  font-size: 2.5rem;
+  padding-top: 7vh;
+  font-size:3.2604rem;
  
 }
 
 h2 {
-  color: var(--secundary-color-green);
-  text-align: right;
-  font-size: 2rem;
+  font-size: 1.4212rem;
 
 }
 
-h5 {
-  font-family: 'FontLight';
-  margin: 0px;
+h3{
+  font-size: 1.6720rem;
+  margin:0px;
 }
 
 h4 {
+  font-size: 1.0032rem ;
   margin: 0px;
 }
+
+h5 {
+  font-family: 'FontBook';
+  margin: 0px;
+  font-size: 1.1704rem;
+}
+
+
 
 h6 {
-  font-family: 'FontLight';
+  font-family: 'FontBook';
   margin: 0px;
-  font-size: 0.8rem;
+  font-size: 0.9196rem;
 }
 
+
+h7{
+  font-family: 'FontLight';
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size:0.9196rem;
+}
 
 p {
   font-family: 'FontLight';
-  margin: 0px;
-  font-size: 2vh;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size:0.9196rem;
+  padding-left: 17px;
 }
 
 

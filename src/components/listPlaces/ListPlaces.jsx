@@ -1,7 +1,9 @@
+import React from 'react';
 import styles from "../../styles/modulos/ListPlace.module.css"
 import CardPlace from "../cardPlace/CardPlace"
 import axios from "axios";
 import { useState, useEffect } from "react";
+import { keyboard } from '@testing-library/user-event/dist/keyboard';
 
 export default function ListPlaces () {
 
@@ -17,9 +19,9 @@ export default function ListPlaces () {
 
     return (
         <div className={styles.frameList}>
-            <h2>Category</h2>
+            <h2 className={styles.category} >Category</h2>
 
-          {places.map(({name, shortDescription, district, price, longDescription, city, doNotMiss, highlight })=>(
+          {places.map(({name, shortDescription, district, price, longDescription, city, doNotMiss, highlight,category, key })=>(
             <CardPlace
             name={name}
             shortDescription={shortDescription}
@@ -29,7 +31,8 @@ export default function ListPlaces () {
             city={city}
             doNotMiss={doNotMiss}
             highlight ={highlight}
-            
+            category ={category}
+            key={key}
             />
             
           ))}

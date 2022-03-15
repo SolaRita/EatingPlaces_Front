@@ -8,5 +8,12 @@
     flex-direction: column;
     gap: 2vh;
     padding-bottom: 10vh;
+    padding-top: 7vh;
    
 }
+
+.category {
+    color: var(--secundary-color-green);
+    text-align: right;
+    font-size: 1.4212rem;
+  }

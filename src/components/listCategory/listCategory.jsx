@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from "../../styles/modulos/ListPlace.module.css"
-import CardPlace from "../cardPlace/CardPlace"
 import axios from "axios";
 import { useState, useEffect } from "react";
 import CardCategory from '../cardCategory/cardCategory';

@@ -3,7 +3,7 @@ import styles from "../../styles/modulos/CardPlace.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faHeart } from "@fortawesome/free-solid-svg-icons";
 
-export default function CardPlace(place) {
+export default function CardPlace({place}) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (

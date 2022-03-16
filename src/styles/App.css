@@ -6,7 +6,6 @@
 .App {
   background-color: var(--background-color);
   height: 100%;
-  height: 100vmax;
   text-align: center;
   font-family: 'FontMedium';
 
@@ -40,14 +39,11 @@ h5 {
   font-size: 1.1704rem;
 }
 
-
-
 h6 {
   font-family: 'FontBook';
   margin: 0px;
   font-size: 0.9196rem;
 }
-
 
 h7{
   font-family: 'FontLight';

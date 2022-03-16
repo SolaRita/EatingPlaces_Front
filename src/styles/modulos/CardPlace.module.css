@@ -1,15 +1,9 @@
 @import "../variables/Colors.css";
 @import "../variables/Tipos.css";
 
-.card {
-  background-color: var(--secundary-color-beige);
-  padding: 15px;
-  
-
-}
 
 .text {
-  padding-top: 1vh
+  padding-top: 1vh;
 }
 .icon {
   font-size: 0.7rem;
@@ -25,12 +19,9 @@
 }
 
 .dropdown {
-
   position: relative;
   display: block;
 }
-
-
 
 .left {
   display: flex;
@@ -48,10 +39,8 @@
   justify-content: center;
 }
 
-
-
-.textLogo{
-  display:flex;
+.textLogo {
+  display: flex;
   flex-direction: row;
 }
 hr {
@@ -61,7 +50,7 @@ hr {
   margin: 0px;
   margin-top: 2vh;
   margin-bottom: 2vh;
+  border-width: 0px;
   
 }
-
 

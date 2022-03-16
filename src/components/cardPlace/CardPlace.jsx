@@ -7,7 +7,7 @@ export default function CardPlace(place) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className={styles.card}>
+    <div >
       <div className={styles.vista} onClick={(e) => setIsOpen(!isOpen)}>
         <div className={styles.left}>
           <div className={styles.text}>
@@ -18,28 +18,16 @@ export default function CardPlace(place) {
         <div className={styles.rigth}>
           <div className={styles.text}>
             <h6>{place.district}</h6>
-
             <h6>{place.price}</h6>
-        
           </div>
         </div>
-
-     {/*    {place.category.map((elemento,key)=>{
-          return <p key={key}>{elemento}</p>
-        })} */}
-
-
-        {/* {array.forEach((place.category) => {
-        
-      });}
-      <h6>{place.category[0].name}</h6> */}
       </div>
 
       <div>
         {isOpen && (
           <div className={styles.dropdown}>
             <div className={styles.left}>
-              <hr />
+              <hr/>
               <h7>{place.longDescription}</h7>
               <hr />
               <div className={styles.textLogo}>
@@ -50,21 +38,29 @@ export default function CardPlace(place) {
               <hr />
               <div>
                 <div className={styles.textLogo}>
-                <FontAwesomeIcon className={styles.icon} icon={faHeart} />
-                <h6>Destacamos</h6>
+                  <FontAwesomeIcon className={styles.icon} icon={faHeart} />
+                  <h6>Destacamos</h6>
                 </div>
-              
+
                 <p>{place.highlight}</p>
               </div>
-              
-            </div> 
-
-            <div className={styles.rigth}>
-            
             </div>
+
+            <div className={styles.rigth}></div>
           </div>
         )}
       </div>
+
+      {/* prueba de tags */}
+
+      {/*    {place.category.map((elemento,key)=>{
+          return <p key={key}>{elemento}</p>
+        })} */}
+
+      {/* {array.forEach((place.category) => {
+        
+      });}
+      <h6>{place.category[0].name}</h6> */}
     </div>
   );
 }

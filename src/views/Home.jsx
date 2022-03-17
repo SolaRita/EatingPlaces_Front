@@ -4,13 +4,16 @@ import Navbar from '../components/navbar/Navbar';
 import ListCategory from '../components/listCategory/listCategory';
 
 
-function Category() {
+
+function Home() {
   return (
     <div className="App">
      <Navbar/>
     <ListCategory/>
+
+
     </div>
   );
 }
 
-export default Category;
+export default Home;

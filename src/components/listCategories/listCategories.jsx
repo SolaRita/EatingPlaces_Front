@@ -5,14 +5,14 @@ import CardCategory from '../cardCategory/cardCategory';
 import {Services} from '../../services/Services';
 
 
-export default function ListCategory () {
-    const [places, setPlaces] = useState([]);
+export default function ListCategories () {
+    const [categories, setCategories] = useState([]);
 
-    const apiPlaces = Services();
+    const apiCategories = Services();
   
     useEffect(() => {
-      apiPlaces.getPlaces().then((res) => {
-        setPlaces(res.data); 
+      apiCategories.getCategories().then((res) => {
+        setCategories(res.data); 
       }).catch(error=>{
         console.log(error)
       })
@@ -23,14 +23,14 @@ export default function ListCategory () {
   
       return (
           <div className={styles.frameList}>
-              <h2 className={styles.city} >Barcelona{places.name}</h2>
+              <h2 className={styles.city} >Barcelona</h2>
               
             <div className={styles.grid}>
-            {places.map((place,index)=> (
+            {categories.map((category,index)=> (
               <div className={styles.cardColor}>
                 
               <CardCategory
-              place={place} key={index}
+              category={category} key={index}
               />
              </div>
             ))}

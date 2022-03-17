@@ -6,10 +6,16 @@ axios.defaults.headers.post["Accept"] = "application/json";
 
 export const Services=()=> {
   const placesUrl = "/places";
+  const categoryUrl = "/category";
   const getPlaces = () => {
     return  axios.get(placesUrl);
   };
-  return {getPlaces, placesUrl};
+  const getCategories = () => {
+    return  axios.get(categoryUrl);
+  };
+  return {getPlaces, placesUrl, getCategories, categoryUrl};
 }
+
+
 
 

@@ -2,14 +2,14 @@
 import styles from "../../styles/modulos/CategoryPlace.module.css";
 
 
-export default function CardCategory(place) {
+export default function CardCategory({category}) {
  
 
   return (
     <div >
       <div className={styles.card} >
           
-            <h3 className={styles.text}>{place.name} Asia</h3>
+            <h3 className={styles.text}>{category.name}</h3>
     
       </div>
     </div>

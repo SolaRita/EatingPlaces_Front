@@ -3,6 +3,7 @@ import styles from "../../styles/modulos/ListPlace.module.css"
 import CardPlace from "../cardPlace/CardPlace"
 import { useState, useEffect } from "react";
 import {Services} from '../../services/Services';
+import { Link } from 'react-router-dom';
 
 
 export default function ListPlaces () {
@@ -23,7 +24,11 @@ export default function ListPlaces () {
 
     return (
         <div className={styles.frameList}>
+          <div className={styles.header}>
+          <Link to="/" className={styles.volver}>Volver</Link>
             <h2 className={styles.category} >Category{places.name}</h2>
+            
+            </div>
 
           {places.map((place,index)=> (
             <div className={styles.cardColor}>

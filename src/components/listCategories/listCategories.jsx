@@ -3,6 +3,7 @@ import styles from "../../styles/modulos/ListCategory.module.css"
 import { useState, useEffect } from "react";
 import CardCategory from '../cardCategory/cardCategory';
 import {Services} from '../../services/Services';
+import { Link } from 'react-router-dom';
 
 
 export default function ListCategories () {
@@ -16,6 +17,8 @@ export default function ListCategories () {
       }).catch(error=>{
         console.log(error)
       })
+
+      console.log (categories)
      
     },[]); 
   
@@ -27,12 +30,12 @@ export default function ListCategories () {
               
             <div className={styles.grid}>
             {categories.map((category,index)=> (
-              <div className={styles.cardColor}>
-                
+               <Link to="/category" className={styles.cardColor} >
               <CardCategory
               category={category} key={index}
               />
-             </div>
+              </Link>
+            
             ))}
             </div>
             </div>  

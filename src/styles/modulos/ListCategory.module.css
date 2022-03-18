@@ -20,30 +20,34 @@
   font-size: 3.0096rem;
   margin: 0px;
 }
-
+.cardColor{
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
 .cardColor:nth-child(4){
     background-color: var(--secundary-color-beige);
-    padding: 15px;
+    
   }
 
 .cardColor:nth-child(5n+3)
 {background-color: var(--secundary-color-beige);
-  padding: 15px;}
+ }
 
 
 .cardColor:nth-child(4n+1){
   background-color: var(--secundary-color-pink);
-  padding: 15px;
+  
 }
 
 .cardColor:nth-child(4n+2)
 {
   background-color: var(--secundary-color-green);
-  padding: 15px;
+  
 }
 
 .cardColor:nth-child(7){
   background-color: var(--secundary-color-green);
-  padding: 15px;
+  
 }
 

@@ -27,7 +27,7 @@ export default function ListPlaces() {
         <Link to="/" className={styles.volver}>
           Volver
         </Link>
-        <h2 className={styles.category}>Category{places.name}</h2>
+        <h2 className={styles.category}>Category</h2>
       </div>
 
       {places.map((place, index) => (

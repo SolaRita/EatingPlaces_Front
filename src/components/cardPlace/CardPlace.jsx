@@ -29,7 +29,7 @@ export default function CardPlace({place}) {
           <div className={styles.dropdown}>
             <div className={styles.left}>
               <hr/>
-              <h7>{place.longDescription}</h7>
+              <p className={styles.longDescription}>{place.longDescription}</p>
               <hr />
               <div className={styles.textLogo}>
                 <FontAwesomeIcon className={styles.icon} icon={faStar} />

@@ -2,6 +2,28 @@
 @import "../variables/Tipos.css";
 
 
+h5 {
+  font-family: 'FontBook';
+  margin: 0;
+  font-size:calc(1.1704em + 0.2vh);
+  border: 1px solid red;
+}
+
+h6 {
+  font-family: 'FontBook';
+  margin: 0;
+  font-size:calc(0.9196em + 0.2vh);
+}
+
+
+p {
+  font-family: 'FontLight';
+  margin-top: 0.3125em;
+  margin-bottom: 0;
+  font-size:calc(0.9196em + 0.2vh);
+  padding-left: 1.0625em;
+}
+
 .text {
   padding-top: 1vh;
 }

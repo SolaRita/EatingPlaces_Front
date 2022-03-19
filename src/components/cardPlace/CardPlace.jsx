@@ -19,6 +19,7 @@ export default function CardPlace({place}) {
           <div className={styles.text}>
             <h6>{place.district}</h6>
             <h6>{place.price}</h6>
+            
           </div>
         </div>
       </div>

@@ -14,49 +14,49 @@
 h1 {
   margin: 0%;
   padding-top: 7vh;
-  font-size:3.2604rem;
+  font-size:3.2604em;
  
 }
 
 h2 {
-  font-size: 1.4212rem;
+  font-size: 1.4212em;
 
 }
 
 h3{
-  font-size: 1.6720rem;
+  font-size: 1.6720em;
   margin:0px;
 }
 
 h4 {
-  font-size: 1.0032rem ;
+  font-size: 1.0032em ;
   margin: 0px;
 }
 
 h5 {
   font-family: 'FontBook';
   margin: 0px;
-  font-size: 1.1704rem;
+  font-size: 1.1704em;
 }
 
 h6 {
   font-family: 'FontBook';
   margin: 0px;
-  font-size: 0.9196rem;
+  font-size: 0.9196em;
 }
 
 .h7 {
   font-family: 'FontLight';
   margin-top: 5px;
   margin-bottom: 0px;
-  font-size:0.9196rem;
+  font-size:0.9196em;
 }
 
 p {
   font-family: 'FontLight';
   margin-top: 5px;
   margin-bottom: 0px;
-  font-size:0.9196rem;
+  font-size:0.9196em;
   padding-left: 17px;
 }
 

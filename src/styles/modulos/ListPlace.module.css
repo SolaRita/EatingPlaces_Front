@@ -2,14 +2,16 @@
 @import "../variables/Tipos.css";
 
 .frameList {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 20vw;
+  margin-right: 20vw;
   display: flex;
   flex-direction: column;
   gap: 2vh;
   padding-bottom: 10vh;
   padding-top: 20vh;
 }
+
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -17,7 +19,7 @@
 .volver {
   color: var(--secundary-color-green);
   font-size: 1.5em;
-  margin: 0px;
+  margin: 0em;
   text-decoration: none;
   margin-top: 1.5096em;
 }
@@ -25,20 +27,20 @@
 .category {
   color: var(--secundary-color-green);
   font-size: 3.0096em;
-  margin: 0px;
+  margin: 0em;
 }
 
 .cardColor:nth-child(3n + 2) {
   background-color: var(--secundary-color-beige);
-  padding: 15px;
+  padding: 0.9375em;
 }
 
 .cardColor:nth-child(3n + 3) {
   background-color: var(--secundary-color-pink);
-  padding: 15px;
+  padding: 0.9375em;
 }
 
 .cardColor:nth-child(3n + 1) {
   background-color: var(--secundary-color-green);
-  padding: 15px;
+  padding: 0.9375em;
 }

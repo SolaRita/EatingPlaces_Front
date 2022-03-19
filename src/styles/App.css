@@ -5,9 +5,11 @@
 
 .App {
   background-color: var(--background-color);
-  background-size: cover;
+  background-size: 100vh;
+  background-size: 100vw;
   text-align: center;
   font-family: 'FontMedium';
+  font-size: 100%;
 
 }
 
@@ -25,39 +27,39 @@ h2 {
 
 h3{
   font-size: 1.6720em;
-  margin:0px;
+  margin:0%;
 }
 
 h4 {
   font-size: 1.0032em ;
-  margin: 0px;
+  margin: 0%;
 }
 
 h5 {
   font-family: 'FontBook';
-  margin: 0px;
+  margin: 0%;
   font-size: 1.1704em;
 }
 
 h6 {
   font-family: 'FontBook';
-  margin: 0px;
+  margin: 0%;
   font-size: 0.9196em;
 }
 
 .h7 {
   font-family: 'FontLight';
-  margin-top: 5px;
-  margin-bottom: 0px;
+  margin-top: 0.3125em;
+  margin-bottom: 0%;
   font-size:0.9196em;
 }
 
 p {
   font-family: 'FontLight';
-  margin-top: 5px;
-  margin-bottom: 0px;
+  margin-top: 0.3125em;
+  margin-bottom: 0%;
   font-size:0.9196em;
-  padding-left: 17px;
+  padding-left: 1.0625em;
 }
 
 

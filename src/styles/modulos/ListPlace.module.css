@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   gap: 2vh;
-  padding-top: 20vw;
+  padding-top: 10vw;
   padding-bottom: 10vh;
   
 }
@@ -18,7 +18,13 @@
     margin-right: 15vw;
     padding-top: 15vw;
     padding-bottom: 30vh;
-  
+  }
+  .volver {
+    display: none;
+  }
+
+  .volverBox{
+    font-size: 1.5em;
   }
 }
 
@@ -26,16 +32,36 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* border: 1px solid red; */
+  align-items:flex-end;
+}
+
+.volverBox {
+  color: var(--secundary-color-green);
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items:flex-end;
+  
+}
+
+.icon {
+  font-size: 1em;
+  justify-items: righti;
+  margin-right: 2vh;
+  font-size: 1.5em;
+  
 }
 
 .volver {
-  color: var(--secundary-color-green);
   font-size:1.171041678377088em;
-  text-decoration: none;
-  margin-top: 1.3em;
-  /* border: 1px solid red; */
+  font-family: 'FontBook';
+  justify-content: center;
+  padding:0;
+  margin: 0;
+
 }
+
+
 
 .category {
   color: var(--secundary-color-green);

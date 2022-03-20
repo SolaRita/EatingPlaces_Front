@@ -7,23 +7,16 @@
   padding-right: 20vw;
   padding-top: 10vw;
   padding-bottom: 10vh;
-  border: 2px solid rgb(179, 255, 0);
+ 
 }
 
-@media (max-width: 700px) {
-  .frameList {
-    padding-left: 10vw;
-    padding-right: 10vw;
-  }
-}
+
 
 .grid{
     display:grid;
     grid-template-columns:  42vh 42vh 42vh;
-    grid-template-rows: 42vh 42vh 42vh; /*  repeat(3,1fr) */;
+    grid-template-rows: 42vh 42vh 42vh;
     gap: 2vh;
-    
-    border: 2px solid red;
     
 }
 
@@ -32,19 +25,30 @@
   text-align: left;
   font-size: 3.0096em;
   margin: 0;
-  border: 2px solid rgb(0, 247, 255);
+
 }
 .cardColor{
   cursor: pointer;
   text-decoration: none;
-  border: 2px solid rgb(25, 0, 85);
   color: black;
   
 
 }
 
 
+@media (max-width: 700px) {
+  .frameList {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .grid{
+    display:grid;
+    grid-template-columns:  14vh 14vh 14vh;
+    grid-template-rows: 14vh 14vh 14vh;
+    gap: 1vh;
 
+  }
+}
 
 
 

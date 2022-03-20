@@ -1,5 +1,5 @@
 
-import styles from "../../styles/modulos/CategoryPlace.module.css";
+import styles from "../../styles/modulos/CardCategory.module.css";
 
 
 export default function CardCategory({category}) {

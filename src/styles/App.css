@@ -5,10 +5,10 @@
 
 .App {
   background-color: var(--background-color);
-   background-size: 100vh;
-  background-size: 100vw;
+  background-size: 100%;
   text-align: center;
   font-family: 'FontMedium';
+  padding-bottom: 10vh;
   font-size: 16px;
 }
 

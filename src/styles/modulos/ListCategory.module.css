@@ -3,21 +3,29 @@
 
 
 .frameList {
-  padding-left: 20vw;
-  padding-right: 20vw;
-  padding-top: 10vw;
-  padding-bottom: 10vh;
- 
+  
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 10vw;
+  margin-bottom: 10vh;
 }
 
 
-
 .grid{
-    display:grid;
+  display:grid;
+/*   grid-template-columns: repeat(3, minmax(42vh, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(42vh, 3fr)); */
+  justify-content: center;
     grid-template-columns:  42vh 42vh 42vh;
     grid-template-rows: 42vh 42vh 42vh;
     gap: 2vh;
-    
+}
+
+.cardColor{
+  padding: 0%;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;  
 }
 
 .city {
@@ -25,56 +33,61 @@
   text-align: left;
   font-size: 3.0096em;
   margin: 0;
-
-}
-.cardColor{
-  cursor: pointer;
-  text-decoration: none;
-  color: black;
-  
-
 }
 
 
-@media (max-width: 700px) {
-  .frameList {
-    padding-left: 10vw;
-    padding-right: 10vw;
-  }
-  .grid{
-    display:grid;
-    grid-template-columns:  14vh 14vh 14vh;
-    grid-template-rows: 14vh 14vh 14vh;
-    gap: 1vh;
-
-  }
-}
 
 
 
 .cardColor:nth-child(4){
-    background-color: var(--secundary-color-beige);
-    
+background-color: var(--secundary-color-beige);
   }
 
 .cardColor:nth-child(5n+3)
 {background-color: var(--secundary-color-beige);
  }
 
-
 .cardColor:nth-child(4n+1){
   background-color: var(--secundary-color-pink);
-  
 }
 
-.cardColor:nth-child(4n+2)
-{
+.cardColor:nth-child(4n+2){
   background-color: var(--secundary-color-green);
-  
 }
 
 .cardColor:nth-child(7){
   background-color: var(--secundary-color-green);
+}
+
+@media (max-width: 700px) {
+  .frameList {
+/*     padding-left: 10vw;
+    padding-right: 10vw; */
+  }
+  .grid{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+   
+    gap: 1vh;
+
+  }
+
+  .cardColor:nth-child(3n + 2) {
+    background-color: var(--secundary-color-beige);
+    padding: 0.9375em;
+    
+  }
+  
+  .cardColor:nth-child(3n + 3) {
+    background-color: var(--secundary-color-pink);
+    padding: 0.9375em;
+  }
+  
+  .cardColor:nth-child(3n + 1) {
+    background-color: var(--secundary-color-green);
+    padding: 0.9375em;
+  }
   
 }
 

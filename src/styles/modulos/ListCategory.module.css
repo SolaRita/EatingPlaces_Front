@@ -2,32 +2,52 @@
 @import "../variables/Tipos.css";
 
 
-
-
 .frameList {
-  margin-left: 20%;
-  margin-right: 20%;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 10vw;
   padding-bottom: 10vh;
-  padding-top: 20vh;
+  border: 2px solid rgb(179, 255, 0);
+}
+
+@media (max-width: 700px) {
+  .frameList {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
 }
 
 .grid{
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns:  42vh 42vh 42vh;
+    grid-template-rows: 42vh 42vh 42vh; /*  repeat(3,1fr) */;
     gap: 2vh;
+    
+    border: 2px solid red;
+    
 }
 
 .city {
   color: var(--secundary-color-green);
   text-align: left;
-  font-size: 3.0096rem;
-  margin: 0px;
+  font-size: 3.0096em;
+  margin: 0;
+  border: 2px solid rgb(0, 247, 255);
 }
 .cardColor{
+  cursor: pointer;
   text-decoration: none;
+  border: 2px solid rgb(25, 0, 85);
   color: black;
-  padding: 15px;
+  
+
 }
+
+
+
+
+
+
 .cardColor:nth-child(4){
     background-color: var(--secundary-color-beige);
     

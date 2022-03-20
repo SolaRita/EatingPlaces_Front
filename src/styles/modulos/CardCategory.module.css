@@ -4,17 +4,12 @@
 
 .text {
   padding-top: 1vh;
-  font-size:2.0064rem ;
+  font-size:2.0064em ;
+  text-align: left;
+  padding: 15px;
 }
 
-.card {
-  
-  
-  height: 30vh;
-  display: flex;
-  flex-direction: row;
-  cursor: pointer;
-}
+
 
 
 

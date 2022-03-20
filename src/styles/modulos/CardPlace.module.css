@@ -1,38 +1,45 @@
 @import "../variables/Colors.css";
 @import "../variables/Tipos.css";
 
-
-h5 {
-  font-family: 'FontBook';
-  margin: 0;
-  font-size:calc(1.1704em + 0.2vh);
-  border: 1px solid red;
+@media (max-width: 700px) {
+  .rigth {
+    font-size: 1.5em;
+  }
+  .dropdown {
+    font-size: 11px;
+  }
+  .text{
+    font-size: 9px;
+  }
+  
 }
 
-h6 {
+
+.districtAndPrice {
   font-family: 'FontBook';
   margin: 0;
-  font-size:calc(0.9196em + 0.2vh);
+  font-size: 0.9196em;
 }
 
 
-p {
+.description {
   font-family: 'FontLight';
   margin-top: 0.3125em;
   margin-bottom: 0;
-  font-size:calc(0.9196em + 0.2vh);
+  font-size:0.9196em;
   padding-left: 1.0625em;
 }
 
-.text {
-  padding-top: 1vh;
+
+.shortDescription {
+  font-family: 'FontBook';
+  margin: 0;
+  font-size:1.1704em;
+  max-width: 60vw; 
+ 
+
 }
-.icon {
-  font-size: 0.7rem;
-  justify-items: left;
-  margin-right: 5px;
-  padding-top: 3px;
-}
+
 
 .vista {
   display: flex;
@@ -65,6 +72,20 @@ p {
   display: flex;
   flex-direction: row;
 }
+
+.icon {
+  font-size: 0.7em;
+  justify-items: left;
+  margin-right: 5px;
+  padding-top: 3px;
+}
+
+.smallTitle {
+  font-family: 'FontBook';
+  font-size: 0.920104175867712em;
+  margin: 0px;
+}
+
 hr {
   height: 1px;
   width: 100%;

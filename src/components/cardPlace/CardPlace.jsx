@@ -12,13 +12,13 @@ export default function CardPlace({place}) {
         <div className={styles.left}>
           <div className={styles.text}>
             <h3>{place.name}</h3>
-            <h5>{place.shortDescription}</h5>
+            <h5 className={styles.shortDescription}>{place.shortDescription}</h5>
           </div>
         </div>
         <div className={styles.rigth}>
-          <div className={styles.text}>
-            <h6>{place.district}</h6>
-            <h6>{place.price}</h6>
+          <div>
+            <h6 className={styles.districtAndPrice}>{place.district}</h6>
+            <h6 className={styles.districtAndPrice}>{place.price}</h6>
             
           </div>
         </div>
@@ -29,21 +29,21 @@ export default function CardPlace({place}) {
           <div className={styles.dropdown}>
             <div className={styles.left}>
               <hr/>
-              <p className={styles.longDescription}>{place.longDescription}</p>
+              <p className={styles.description}>{place.longDescription}</p>
               <hr />
               <div className={styles.textLogo}>
                 <FontAwesomeIcon className={styles.icon} icon={faStar} />
-                <h6>No te pierdas</h6>
+                <h6 className={styles.smallTitle} >No te pierdas</h6>
               </div>
-              <p>{place.doNotMiss}</p>
+              <p className={styles.description} >{place.doNotMiss}</p>
               <hr />
               <div>
                 <div className={styles.textLogo}>
                   <FontAwesomeIcon className={styles.icon} icon={faHeart} />
-                  <h6>Destacamos</h6>
+                  <h6 className={styles.smallTitle}>Destacamos</h6>
                 </div>
 
-                <p>{place.highlight}</p>
+                <p className={styles.description}  >{place.highlight}</p>
               </div>
             </div>
 

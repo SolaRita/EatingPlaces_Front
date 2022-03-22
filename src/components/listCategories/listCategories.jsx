@@ -20,7 +20,7 @@ export default function ListCategories() {
         console.log(error);
       });
 
-    console.log(categories);
+    
   }, [apiCategories, categories]);
 
   return (
@@ -29,7 +29,7 @@ export default function ListCategories() {
 
       <div className={styles.grid}>
         {categories.map((category, index) => (
-          <Link to="/category" className={styles.cardColor}>
+          <Link to={`/categories/${category.id}/places`} className={styles.cardColor}>
             <CardCategory category={category} key={index} />
           </Link>
         ))}

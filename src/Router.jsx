@@ -9,7 +9,7 @@ function Router() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<App />} />
-        <Route exact path="/category" element={<Category />} />
+        <Route exact path="/categories/:id/places" element={<Category />} />
       </Routes>
     </BrowserRouter>
   );

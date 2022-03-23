@@ -9,42 +9,58 @@ import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 
 export default function ListPlaces() {
   const [places, setPlaces] = useState([]);
-  const params = useParams(); 
+  const [category, setCategory] = useState([]);
+  const [dataExist, setDataExist] = useState(false);
+  const [catName, setCatName] = useState("");
+
+  const params = useParams();
   const apiPlaces = Services();
-  
+  const cat = () => {
+    let catName = category.filter((category) => category.id === catId);
+    setCatName(catName[0].name);
+  };
+
+  const catId = parseInt(params.id);
+
   useEffect(() => {
-    const categoryId = params.id;
-    const categoryName = params.name;
-
-    console.log(categoryName);
-    apiPlaces
-      .getPlacesbyCategory(categoryId)
-      .then((res) => {
-       setPlaces(res.data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }, [apiPlaces, places, params.id]);
-
-  console.log (params.name);
+    apiPlaces.getPlacesbyCategory(catId).then((res) => {
+      setPlaces(res.data);
+      setCategory(res.data[0].category);
+      cat();
+      setDataExist(true);
+    });
+  });
 
   return (
     <div className={styles.frameList}>
       <div className={styles.header}>
-        <Link className={styles.volverBox}  to="/" >
-        <FontAwesomeIcon className={styles.icon} icon={faAngleLeft} />
-        <p className={styles.volver}>volver</p>
-         
+        <Link className={styles.volverBox} to="/">
+          <FontAwesomeIcon className={styles.icon} icon={faAngleLeft} />
+          <p className={styles.volver}>volver</p>
         </Link>
-        <h2 className={styles.category}>Asia</h2>
+
+        <div>
+          <h2 className={styles.category}>
+            {" "}
+            {dataExist ? <p>{catName}</p> : <p>loading</p>}{" "}
+          </h2>
+        </div>
       </div>
 
-      {places.map((place, index) => (
-        <div className={styles.cardColor}>
-          <CardPlace place={place} key={index} />
-        </div>
-      ))}
+      {dataExist
+        ? places.map((place, index) => (
+            <div className={styles.cardColor} key={index}>
+              <CardPlace place={place} />
+            </div>
+          ))
+        : "Loading"}
     </div>
   );
 }
+
+/* {categoryName.name === category ? (
+  <h2 className={styles.category}> {category} </h2>
+) : (
+  <h2>nada</h2>
+
+  {/* <p>{()=>{cat()} }</p> */

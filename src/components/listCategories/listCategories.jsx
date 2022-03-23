@@ -22,15 +22,16 @@ export default function ListCategories() {
 
     
   }, [apiCategories, categories]);
-
+  
   return (
     <div className={styles.frameList}>
       <h2 className={styles.city}>Barcelona</h2>
 
       <div className={styles.grid}>
         {categories.map((category, index) => (
-          <Link to={`/categories/${category.id}/places`} className={styles.cardColor}>
-            <CardCategory category={category} key={index} />
+          
+          <Link to={`/categories/${category.id}/places`} category={category} key={index} className={styles.cardColor}>
+            <CardCategory category={category}  />
           </Link>
         ))}
       </div>

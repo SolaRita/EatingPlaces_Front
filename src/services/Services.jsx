@@ -9,15 +9,21 @@ export const Services=()=> {
   const categoryUrl = "/categories";
   
 
-  const getPlaces = () => {
-    return  axios.get(placesUrl);
-  };
-  const getCategories = () => {
-    return  axios.get(categoryUrl);
+  const getPlaces = async () => {
+    const res = await axios.get(placesUrl)
+    return res ;
   };
 
-  const getPlacesbyCategory=(category)=> {
-    return axios.get(`/categories/${category}/places`)};
+  const getCategories = async () => {
+    const res = await axios.get(categoryUrl)
+    return  res;
+  };
+
+
+  const getPlacesbyCategory=async (category)=> {
+    const res = await axios.get(`/categories/${category}/places`)
+    return res
+  };
 
  
   return {getPlaces, placesUrl, getCategories, categoryUrl, getPlacesbyCategory};

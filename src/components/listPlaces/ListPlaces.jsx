@@ -11,13 +11,13 @@ export default function ListPlaces() {
   const [places, setPlaces] = useState([]);
   const [category, setCategory] = useState([]);
   const [dataExist, setDataExist] = useState(false);
-  const [catName, setCatName] = useState("");
+  const [categoryName, setcategoryName] = useState("");
 
   const params = useParams();
   const apiPlaces = Services();
-  const cat = () => {
-    let catName = category.filter((category) => category.id === catId);
-    setCatName(catName[0].name);
+  const searchName = () => {
+    let categoryName = category.filter((category) => category.id === catId);
+    setcategoryName(categoryName[0].name);
   };
 
   const catId = parseInt(params.id);
@@ -26,7 +26,7 @@ export default function ListPlaces() {
     apiPlaces.getPlacesbyCategory(catId).then((res) => {
       setPlaces(res.data);
       setCategory(res.data[0].category);
-      cat();
+      searchName();
       setDataExist(true);
     });
   });
@@ -42,7 +42,7 @@ export default function ListPlaces() {
         <div>
           <h2 className={styles.category}>
             {" "}
-            {dataExist ? <p>{catName}</p> : <p>loading</p>}{" "}
+            {dataExist ? <p>{categoryName}</p> : <p>loading</p>}{" "}
           </h2>
         </div>
       </div>

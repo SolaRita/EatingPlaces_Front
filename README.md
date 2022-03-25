@@ -12,13 +12,12 @@ En octubre de 2021 empece a estudiar programación y le pedí que empezara con e
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- Disseño? -->
-### Mock-up
-![WhatsApp Image 2022-02-02 at 5 00 34 PM](https://user-images.githubusercontent.com/92262095/159969788-e788c382-b065-4f0c-9cc5-8f59a3557b78.jpeg)
+<!-- Vista? -->
+### Vista
 
-![WhatsApp Image 2022-02-02 at 5 00 37 PM](https://user-images.githubusercontent.com/92262095/159969817-4b7275ba-892f-4d3f-8dc6-3efaefbea1f6.jpeg)
+![FireShot Capture 015 - Eating Places - localhost](https://user-images.githubusercontent.com/92262095/160093424-ca9a337e-4aa7-4aa1-b5e7-5d4f6d9482f8.png)
 
-![WhatsApp Image 2022-02-02 at 5 00 42 PM](https://user-images.githubusercontent.com/92262095/159969827-959ff63d-f9f7-4d4d-8039-da4d0cadf225.jpeg)
+![FireShot Capture 016 - Eating Places - localhost](https://user-images.githubusercontent.com/92262095/160093440-8b2d265e-a652-4edf-906a-f5813151f07b.png)
 
 ### Creado con
 

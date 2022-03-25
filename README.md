@@ -6,7 +6,7 @@
 ## ¿Por qué EatingPlaces?
 
 
-Mi amiga y hermana Vega Hernado, tiene un proyecto que une diseño y gastronomía, Eatting PatTerns. Yo, apasionada de la comida y loca de los Excels, llevo años alimentando una base de datos de restaurantes con numerosos filtros. Un día decidimos unir fuerzas y conocimientos e idear una página que pudiera estructurar esa base de datos al mas puro estilo Eating Paterns. 
+Mi amiga y hermana Vega Hernado, tiene un proyecto que une diseño y gastronomía, Eatting Patterns. Yo, apasionada de la comida y loca de los Excels, llevo años alimentando una base de datos de restaurantes con numerosos filtros. Un día decidimos unir fuerzas y conocimientos e idear una página que pudiera estructurar esa base de datos al mas puro estilo Eating Paterns. 
 En octubre de 2021 empece a estudiar programación y le pedí que empezara con el diseño con el deseo de poder empezar a hacerlo realidad. Es por eso, que decidí escogerlo como mi proyecto de final de curso. 
 
 

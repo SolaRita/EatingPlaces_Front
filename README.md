@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+<div id="top"></div>
+<!--EATING PLACES -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- ¿Por qué EatingPlaces? -->
+## ¿Por qué EatingPlaces?
 
-In the project directory, you can run:
 
-### `npm start`
+Mi amiga y hermana Vega Hernado, tiene un proyecto que une diseño y gastronomía, Eatting Patterns. Yo, apasionada de la comida y loca de los Excels, llevo años alimentando una base de datos de restaurantes con numerosos filtros. Un día decidimos unir fuerzas y conocimientos e idear una página que pudiera estructurar esa base de datos al mas puro estilo Eating Paterns. 
+En octubre de 2021 empece a estudiar programación y le pedí que empezara con el diseño con el deseo de poder empezar a hacerlo realidad. Es por eso, que decidí escogerlo como mi proyecto de final de curso. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `npm test`
+<!-- Vista? -->
+### Vista
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![FireShot Capture 015 - Eating Places - localhost](https://user-images.githubusercontent.com/92262095/160093424-ca9a337e-4aa7-4aa1-b5e7-5d4f6d9482f8.png)
 
-### `npm run build`
+![FireShot Capture 016 - Eating Places - localhost](https://user-images.githubusercontent.com/92262095/160093440-8b2d265e-a652-4edf-906a-f5813151f07b.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Creado con
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+El proyecto contiene dos repositorios: 
+* EatingPlaces_Front > Creado con [React.js](https://reactjs.org/)
+* [EatingPlaces_Back](https://github.com/SolaRita/EatingPlaces_Back) > Creado con [Spring Boot](https://spring.io/projects/spring-boot)]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- EMPEZAR -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Instalación
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clona el repositorio
+2. Instala "NPM packages" -> npm install
+3. Clona el repositorio de EatingPlaces_Back y ejecutalo
+4. Levanta el servidor -> npm start
 
-### Code Splitting
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+<!-- CONTACTO -->
+## Contacto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Rita Solà - ritasolacanals@gmail.com
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,13 +1,13 @@
 
-import styles from "../../styles/modulos/CardCategory.module.css";
+import styles from "../../styles/modules/CardCategory.module.css";
 
 
 export default function CardCategory({category}) {
  
 
   return (
-    <div >
-      <div className={styles.card} >
+    <div className={styles.card}>
+      <div  >
           
             <h3 className={styles.text}>{category.name}</h3>
     

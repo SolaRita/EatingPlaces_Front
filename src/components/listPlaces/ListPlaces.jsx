@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/modulos/ListPlace.module.css";
+import styles from "../../styles/modules/ListPlace.module.css";
 import CardPlace from "../cardPlace/CardPlace";
 import { useState, useEffect } from "react";
 import { Services } from "../../services/Services";

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/modulos/ListCategory.module.css";
+import styles from "../../styles/modules/ListCategory.module.css";
 import { useState, useEffect } from "react";
 import CardCategory from "../cardCategory/cardCategory";
 import { Services } from "../../services/Services";

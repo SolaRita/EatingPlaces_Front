@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import styles from "../../styles/modulos/CardPlace.module.css";
+import styles from "../../styles/modules/CardPlace.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faHeart } from "@fortawesome/free-solid-svg-icons";
 
 export default function CardPlace({ place }) {
   const [isOpen, setIsOpen] = useState(false);
-  const [category, setCategory] = useState([]);
+  
 
   return (
-    <div>
+    <div className = {styles.fullCard}>
       <div className={styles.vista} onClick={(e) => setIsOpen(!isOpen)}>
         <div className={styles.left}>
           <div className={styles.text}>

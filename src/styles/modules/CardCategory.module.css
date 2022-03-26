@@ -9,6 +9,15 @@
 
 }
 
+.card{
+  height: 100%;
+  
+}
+
+.card:hover{
+  background-color: rgba(0, 0, 0, 0.205);
+}
+
 
 
 @media (max-width: 700px) {

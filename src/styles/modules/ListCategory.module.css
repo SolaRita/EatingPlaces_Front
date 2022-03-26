@@ -7,13 +7,12 @@
   margin-right: 20vw;
   margin-top: 10vw;
   margin-bottom: 10vh;
+  
 }
 
 
 .grid{
   display:grid;
-/*   grid-template-columns: repeat(3, minmax(42vh, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(42vh, 3fr)); */
   justify-content: center;
     grid-template-columns:  42vh 42vh 42vh;
     grid-template-rows: 42vh 42vh 42vh;
@@ -26,6 +25,8 @@
   text-decoration: none;
   color: black;  
 }
+
+
 
 .city {
   color: var(--secundary-color-green);

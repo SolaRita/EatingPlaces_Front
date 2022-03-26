@@ -59,6 +59,8 @@
   font-size: calc(0.9196em + 0.2vh);
 }
 
+
+
 .cardColor:nth-child(3n + 2) {
   background-color: var(--secundary-color-beige);
   padding: 0.9375em;
@@ -74,6 +76,7 @@
   background-color: var(--secundary-color-green);
   padding: 0.9375em;
 }
+
 
 p{
   margin-bottom: 0%;
